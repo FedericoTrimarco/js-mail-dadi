@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 30%;
+    margin: 50px auto;
+    background-color: #ccc;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+.email{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+}
+input#email{
+    width: 300px;
+    padding: 10px;
+    font-size: 20px;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+}
+
+h2{
+    text-align: center;
+}
