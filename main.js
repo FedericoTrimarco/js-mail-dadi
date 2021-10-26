@@ -12,6 +12,7 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 */
 
     //  ESERCIZION MAIN
+console.log('GIOCO EMAIL');
 
 const listEmail = ['lello@gmail.com', 'federico@gmail.com', 'nancy@gmail.com'];
 console.log(listEmail);
@@ -43,8 +44,22 @@ if(userEmail === ''){
 }
 
 // ESERCIZIO DADI
+console.log('GIOCO DADI');
+let userNum = Math.floor(Math.random() * 6) + 1;
+console.log('numero random utente:', userNum);
 
+let computerNum = Math.floor(Math.random() * 6) + 1;
+console.log('numero random computer:', computerNum);
 
+if(userNum > computerNum){
+    console.log("Vince l'essere umano");
+}
+else if(computerNum > userNum){
+    console.log("Vince il computer");
+}
+else{
+    console.log("parità");
+}
 
 
 
