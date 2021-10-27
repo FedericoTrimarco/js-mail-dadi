@@ -24,6 +24,7 @@ buttonAccess.addEventListener('click', function(){
     
     if(email === '' || !isNaN(email)){
         alert('DATI NON VALIDI: inserire email');
+        result.innerHTML = `!ERROR!`;
     } else{
 
         for(let i = 0; i < listEmail.length; i++){
